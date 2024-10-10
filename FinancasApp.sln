@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancasApp.API", "FinancasApp.API\FinancasApp.API.csproj", "{FDA13A62-CF6A-4949-970A-150767D95625}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - PRESENTATION", "1 - PRESENTATION", "{D2F17BFA-2EC0-4F4D-997F-1198FA3BC601}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - APPLICATION", "2 - APPLICATION", "{1367D890-9BB5-4B02-89A0-FE73D5A1A543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - DOMAIN", "3 - DOMAIN", "{81F5D6CD-54DC-467A-B2F6-7AE82173C358}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - INFRASTRUCTURE", "4 - INFRASTRUCTURE", "{18BD2DE7-0F6E-44CF-88D9-2465AF3E2349}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancasApp.WEB", "FinancasApp.WEB\FinancasApp.WEB.csproj", "{F58D296D-4962-4F4F-B0CA-FDEFBED0E23D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancasApp.Domain", "FinancasApp.Domain\FinancasApp.Domain.csproj", "{DFC69B4F-DF90-414D-800B-6AEE29315E99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancasApp.Infra.Data", "FinancasApp.Infra.Data\FinancasApp.Infra.Data.csproj", "{6C07FCF2-3D5D-4E20-9EEE-64195D9F02E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{4204A18C-4330-40E3-9835-09EAF9A64BA1}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA13A62-CF6A-4949-970A-150767D95625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA13A62-CF6A-4949-970A-150767D95625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA13A62-CF6A-4949-970A-150767D95625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA13A62-CF6A-4949-970A-150767D95625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58D296D-4962-4F4F-B0CA-FDEFBED0E23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58D296D-4962-4F4F-B0CA-FDEFBED0E23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58D296D-4962-4F4F-B0CA-FDEFBED0E23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58D296D-4962-4F4F-B0CA-FDEFBED0E23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC69B4F-DF90-414D-800B-6AEE29315E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC69B4F-DF90-414D-800B-6AEE29315E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC69B4F-DF90-414D-800B-6AEE29315E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC69B4F-DF90-414D-800B-6AEE29315E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C07FCF2-3D5D-4E20-9EEE-64195D9F02E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C07FCF2-3D5D-4E20-9EEE-64195D9F02E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C07FCF2-3D5D-4E20-9EEE-64195D9F02E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C07FCF2-3D5D-4E20-9EEE-64195D9F02E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDA13A62-CF6A-4949-970A-150767D95625} = {1367D890-9BB5-4B02-89A0-FE73D5A1A543}
+		{F58D296D-4962-4F4F-B0CA-FDEFBED0E23D} = {D2F17BFA-2EC0-4F4D-997F-1198FA3BC601}
+		{DFC69B4F-DF90-414D-800B-6AEE29315E99} = {81F5D6CD-54DC-467A-B2F6-7AE82173C358}
+		{6C07FCF2-3D5D-4E20-9EEE-64195D9F02E4} = {18BD2DE7-0F6E-44CF-88D9-2465AF3E2349}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13A9A59D-175B-468A-AEA3-DF6B00DAE1D1}
+	EndGlobalSection
+EndGlobal
