@@ -15,7 +15,7 @@ builder.Services.AddBlazoredLocalStorage();
 //configurar o endereço da API que iremos acessar no Blazor
 builder.Services.AddScoped(sp => new HttpClient
 {
-    BaseAddress = new Uri("http://localhost:5155")
+    BaseAddress = new Uri("http://localhost:5138")
 });
 
 

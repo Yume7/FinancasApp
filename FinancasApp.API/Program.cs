@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen();
 // Configuração do CORS para dar permissão ao projeto Blazor
 builder.Services.AddCors(
     config => config.AddPolicy("DefaultPolicy", builder => {
-        builder.WithOrigins("http://localhost:5141/")
+        builder.WithOrigins("http://localhost:5141")
                .AllowAnyMethod()
                .AllowAnyHeader();
     })
